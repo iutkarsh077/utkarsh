@@ -1,16 +1,33 @@
-import { Metadata } from "next";
+import type { Metadata } from "next";
+import { PortfolioOutline, PortfolioStructuredData } from "@/components/seo/portfolio-outline";
 import { siteConfig } from "@/config/site";
 import HomeClient from "./home-client";
 
 export const metadata: Metadata = {
-  title: siteConfig.title,
+  title: "Full-Stack Engineer | Next.js & AI Products",
+  description: siteConfig.description,
+  alternates: { canonical: "/" },
   openGraph: {
-    images: [
-      `/notes/api/og/?title=${encodeURIComponent("about me")}&emoji=${encodeURIComponent("👋🏼")}`,
-    ],
+    title: siteConfig.title,
+    description: siteConfig.description,
+    url: "/",
+    type: "website",
+    images: [siteConfig.image],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: siteConfig.title,
+    description: siteConfig.description,
+    images: [siteConfig.image],
   },
 };
 
 export default function Home() {
-  return <HomeClient />;
+  return (
+    <>
+      <PortfolioStructuredData />
+      <PortfolioOutline />
+      <HomeClient />
+    </>
+  );
 }

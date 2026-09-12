@@ -2,7 +2,7 @@ export const portfolio = {
   name: "Utkarsh Singh",
   shortName: "Utkarsh",
   title: "Utkarsh Singh",
-  url: "https://utkrsh-singh.vercel.app/",
+  url: "https://utkarsh-human.vercel.app/",
   tagline:
     "Full-Stack Developer specializing in the MERN stack and Next.js.",
   summary:

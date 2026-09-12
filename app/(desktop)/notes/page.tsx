@@ -1,12 +1,26 @@
-import { Metadata } from "next";
+import type { Metadata } from "next";
 import { isMobileRequest } from "@/lib/is-mobile-request";
 import { NotesDesktopPage } from "./[slug]/notes-desktop-page";
 
 export async function generateMetadata(): Promise<Metadata> {
+  const description =
+    "Portfolio notes from Utkarsh Singh: background, work experience, projects, skills, and services.";
+
   return {
-    title: "Utkarsh Singh",
+    title: "Portfolio notes",
+    description,
+    alternates: { canonical: "/notes" },
     openGraph: {
-      images: [`/notes/api/og/?title=${encodeURIComponent("notes")}&emoji=${encodeURIComponent("✏️")}`],
+      title: "Portfolio notes | Utkarsh Singh",
+      description,
+      url: "/notes",
+      type: "website",
+      images: ["/notes/api/og/?title=notes&emoji=%E2%9C%8F%EF%B8%8F"],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: "Portfolio notes | Utkarsh Singh",
+      description,
     },
   };
 }
@@ -14,7 +28,5 @@ export async function generateMetadata(): Promise<Metadata> {
 export default async function NotesPage() {
   const initialIsMobile = await isMobileRequest();
 
-  // On mobile: shows sidebar (no note selected)
-  // On desktop: shows notes window (selection is resolved client-side)
   return <NotesDesktopPage initialIsMobile={initialIsMobile} />;
 }

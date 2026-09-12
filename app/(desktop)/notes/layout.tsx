@@ -3,8 +3,8 @@ import { siteConfig } from "@/config/site";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
-  title: siteConfig.title,
-  description: siteConfig.title,
+  title: "Portfolio notes",
+  description: siteConfig.description,
 };
 
 export default function NotesLayout({

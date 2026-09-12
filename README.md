@@ -1,4 +1,4 @@
-# [utkarshsingh.dev](https://utkrsh-singh.vercel.app/)
+# [utkarsh-human.vercel.app](https://utkarsh-human.vercel.app/)
 
 i'm obsessed with re-creating apple products. this is a macos-inspired personal website featuring a full desktop environment with multiple apps.
 
