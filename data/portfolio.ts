@@ -126,7 +126,7 @@ export const portfolio = {
     {
       title: "Companies Map",
       description:
-        "A free, public discovery site for companies in Hyderabad, with separate maps and directories for Bengaluru, Gurugram, Noida & Delhi, Pune, and Ahmedabad.",
+        "A free, public discovery site for companies in Hyderabad, with separate maps and directories for Bengaluru, Gurugram, Noida & Delhi, Pune, and Ahmedabad.\n - It has reached **1,500+** real users",
       date: "September 16, 2026",
       github: "https://github.com/iutkarsh077/hyderabadcompaniesmap",
       live: "https://hyderabadcompaniesmap.vercel.app/",
@@ -135,7 +135,7 @@ export const portfolio = {
     {
       title: "GPT - Chat, documents, and AI PR reviews.",
       description:
-        "An AI productivity app with chat, PDF Q&A using RAG, GitHub code exploration, and free AI-assisted pull request reviews.",
+        "- An AI productivity app with chat, PDF Q&A using RAG, GitHub code exploration, and free AI-assisted pull request reviews\n - The AI code-review system processed **967 PRs** for ~**$3** in AI/API costs",
       date: "July 26, 2026",
       github: "https://github.com/iutkarsh077/gpt",
       live: "https://github.com/iutkarsh077/gpt",
