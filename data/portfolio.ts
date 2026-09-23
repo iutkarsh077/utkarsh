@@ -15,7 +15,7 @@ export const portfolio = {
     twitter: "https://x.com/iutkarsh077",
     youtube: "https://www.youtube.com/@mrgtxgamerz1",
     resume:
-      "https://drive.google.com/file/d/1jFFQLhcWrJfyB7Fqh7CyDDMO6k8wjBj-/view?usp=sharing",
+      "https://drive.google.com/file/d/1oHBL0A3lch1ngmp5bDEQ9hIx6K0-SwAx/view?usp=sharing",
   },
   githubUsername: "iutkarsh077",
   homeDir: "/Users/utkarsh",
