@@ -17,6 +17,10 @@ export const portfolio = {
     resume:
       "https://drive.google.com/file/d/1oHBL0A3lch1ngmp5bDEQ9hIx6K0-SwAx/view?usp=sharing",
   },
+  hello: {
+    resume:
+      "https://drive.google.com/file/d/1oHBL0A3lch1ngmp5bDEQ9hIx6K0-SwAx/view?usp=sharing",
+  },
   githubUsername: "iutkarsh077",
   homeDir: "/Users/utkarsh",
   stats: [
