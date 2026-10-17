@@ -15,7 +15,7 @@ export const portfolio = {
     twitter: "https://x.com/iutkarsh077",
     youtube: "https://www.youtube.com/@mrgtxgamerz1",
     resume:
-      "https://drive.google.com/file/d/1nxckBgB4XyAd_0ScUuYKlxXfshAQFBZm/view?usp=sharing",
+      "https://drive.google.com/file/d/1RJfeKgrowN3Dpti_yxnkNSxmmt6GznIK/view?usp=sharing",
   },
   githubUsername: "iutkarsh077",
   homeDir: "/Users/utkarsh",
@@ -124,12 +124,12 @@ export const portfolio = {
   ],
   projects: [
     {
-      title: "Altitude HR",
+      title: "Reconciliation",
       description:
-        "Built an Agentic AI & RAG pipeline autonomously parse resumes and rank top candidate matches with semantic precision.",
-      date: "September 26, 2026",
-      github: "https://github.com/iutkarsh077/altitude_hr",
-      live: "https://altitude-hr.vercel.app/",
+        "When developers open a Pull Request changes to a shared codebase, it instantly explains what changed, flags risks, and recommends improvements.",
+      date: "October 17, 2026",
+      github: "https://github.com/iutkarsh077/Reconciliation",
+      live: "https://reconciliation-ruby.vercel.app/",
     },
     {
       title: "Companies Map",
@@ -138,14 +138,6 @@ export const portfolio = {
       date: "September 16, 2026",
       github: "https://github.com/iutkarsh077/hyderabadcompaniesmap",
       live: "https://hyderabadcompaniesmap.vercel.app/",
-    },
-    {
-      title: "DifflyPR - Chat, documents, and AI PR reviews.",
-      description:
-        "An AI productivity app with chat, PDF Q&A using RAG, GitHub code exploration, and free AI-assisted pull request reviews\n The AI code-review system processed **967 PRs** for ~**$3** in AI/API costs",
-      date: "July 26, 2026",
-      github: "https://github.com/iutkarsh077/pr-reviewer",
-      live: "https://pr-reviewer-cyan.vercel.app/",
     },
     {
       title: "Nourish — Eat well. Feel good.",
