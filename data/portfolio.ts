@@ -15,7 +15,7 @@ export const portfolio = {
     twitter: "https://x.com/iutkarsh077",
     youtube: "https://www.youtube.com/@mrgtxgamerz1",
     resume:
-      "https://drive.google.com/file/d/1RJfeKgrowN3Dpti_yxnkNSxmmt6GznIK/view?usp=sharing",
+      "https://drive.google.com/file/d/1aBiwsp_hCt7VdedpEokQCRxBDLrvaVO9/view?usp=sharing",
   },
   githubUsername: "iutkarsh077",
   homeDir: "/Users/utkarsh",
@@ -130,6 +130,14 @@ export const portfolio = {
       date: "October 17, 2026",
       github: "https://github.com/iutkarsh077/Reconciliation",
       live: "https://reconciliation-ruby.vercel.app/",
+    },
+    {
+      title: "Queue",
+      description:
+        "I built Queue to fix this: the owner creates an order and shows a QR code, the customer scans it, watches a live wait timer, and taps Notify me. The owner taps Ready once and a Web Push notification reaches the phone even with the browser closed. I chose Web Push after comparing four channels because it costs nothing per message, and the app collects no email address and no phone number.",
+      date: "October 21, 2026",
+      github: "https://github.com/iutkarsh077/queue-crash",
+      live: "https://queue-crash.vercel.app/",
     },
     {
       title: "Companies Map",
